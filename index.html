@@ -12,9 +12,31 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="asset/styles/main.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="container-fluid bg-dark">
+        <div class="container bg-dark bg-gradient" style="min-height: 100vh">
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <img src="asset/img/logo.png" alt="Pokemon logo" width="100%" />
+            </div>
+          </div>
+          <div class="row justify-content-center mt-5">
+            <div class="col-lg-6">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                class="form-control"
+                placeholder="Seach Pokemon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="importmap">
       {
         "imports": {
